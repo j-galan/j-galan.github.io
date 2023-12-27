@@ -1,0 +1,16 @@
+
+{
+	"pageType": "categories",
+	"content": [
+		{
+			"title": "Art",
+			"thumbnail": "/resources/image1_thumbnail.jpg",
+			"link": "/pages/art.html"
+		},
+		{
+			"title": "Photography",
+			"thumbnail": "/resources/image3_thumbnail.jpeg",
+			"link": "/pages/photography.html"
+		}
+	]
+}

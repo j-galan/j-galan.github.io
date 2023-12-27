@@ -1,0 +1,14 @@
+
+{
+	"pageType": "imageGrid",
+	"content": [
+		{
+			"title": "A nice photo",
+			"image": "/resources/image3.jpeg"
+		},
+		{
+			"title": "Another nice photo",
+			"image": "/resources/image4.png"
+		}
+	]
+}

@@ -1,0 +1,178 @@
+
+:root {
+	--cell-size: 25vw;
+	--max-cell-size: 350px;
+	--actual-cell-size: min(var(--cell-size), var(--max-cell-size));
+	--actual-gap-size: min(2vw, 20px);
+	--actual-grid-width: calc(3 * var(--actual-cell-size) + 2 * var(--actual-gap-size) + 10px);
+}
+
+@keyframes cellOpacity {
+	0% { background-color: rgba(0, 0, 0, 0.6); }
+	100% { background-color: rbga(0, 0, 0, 0.8); }
+}
+
+body {
+	margin: 0;
+	font-family: "Abel", sans-serif;
+}
+
+
+/* HEADER */
+
+#header {
+	display: flex;
+	height: 120px;
+	color: #003333;
+	background-color: #c8c8c8;
+	font-size: 42;
+	padding: 5px;
+	padding-left: 0; /* Small correction to the left for better apparent alignment of texts */
+}
+#header .container {
+	display: flex;
+	flex-wrap: wrap;
+	width: var(--actual-grid-width);
+	margin: auto;
+}
+
+.headerElement {
+	display: inline-flex;
+	margin: auto;
+}
+#headerLeft {
+	margin-left: 0px;
+}
+#headerRight {
+	margin-right: 0px;
+	cursor: pointer;
+}
+
+#bannerImage {
+	max-height: 100px;
+	cursor: pointer;
+}
+
+
+/* PAGE */
+
+#pageContainer {
+	padding: 50px 5px 10px 5px;
+}
+
+.contentGrid {
+	width: var(--actual-grid-width);
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--actual-gap-size);
+}
+
+.contentCell {
+	display: flex;
+	position: relative;
+	width: var(--cell-size);
+	height: var(--cell-size);
+	max-width: var(--max-cell-size);
+	max-height: var(--max-cell-size);
+
+	border: 1px solid #bbbbbb;
+	border-radius: 8px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.contentCell .overlay {
+	display: none;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+	width: calc(var(--cell-size) - 20px);
+	height: calc(var(--cell-size) - 20px);
+	max-width: calc(var(--max-cell-size) - 20px);
+	max-height: calc(var(--max-cell-size) - 20px);
+	padding: 10px;
+
+	border-radius: 7px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+	user-select: none;
+}
+.contentCell img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.contentCell:hover .overlay {
+	display: flex;
+	font-size: 2em;
+	animation-name: cellOpacity;
+	animation-duration: 0.5s;
+}
+
+
+/* OVERLAY */
+
+#fullImageOverlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#fullImageOverlay .banner {
+	height: 64px;
+	color: white;
+	/*background-color: black;*/
+}
+#fullImageOverlay .banner .button {
+	float: right;
+	width: 64px;
+	height: 64px;
+	text-align: center;
+	display: grid;
+	align-items: center;
+	font-size: 24;
+	cursor: pointer;
+}
+#fullImageOverlay .banner .button:hover {
+	opacity: 0.5;
+}
+
+#fullImage {
+	display: block;
+	max-width: 90%;
+	max-height: calc(90% - 64px);
+	margin: 30px auto;
+}
+
+
+/* BREAKPOINTS */
+
+@media only screen and (max-width: 800px) {
+	#header {
+		height: 80px;
+		font-size: 32px;
+	}
+
+	#bannerImage {
+		max-width: 100px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#header {
+		height: 60px;
+		font-size: 24px;
+	}
+
+	#bannerImage {
+		max-width: 70px;
+	}
+}

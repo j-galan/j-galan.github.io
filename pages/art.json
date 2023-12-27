@@ -1,0 +1,14 @@
+
+{
+	"pageType": "imageGrid",
+	"content": [
+		{
+			"title": "Artistic Image",
+			"image": "/resources/image1.jpg"
+		},
+		{
+			"title": "Another artistic Image",
+			"image": "/resources/image2.jpg"
+		}
+	]
+}
