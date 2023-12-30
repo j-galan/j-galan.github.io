@@ -3,12 +3,28 @@
 	"pageType": "imageGrid",
 	"content": [
 		{
-			"title": "Logo for a primary school in Helsinki",
-			"image": "/resources/cygnaeus_logo.png"
+			"title": "Logo for a Finnish rock band",
+			"image": "/resources/logos/mondegos_logo.png"
 		},
 		{
-			"title": "Logo for a rock band",
-			"image": "/resources/mondegos_logo.png"
+			"title": "Logo for a primary school in Helsinki on its 100th anniversary",
+			"image": "/resources/logos/cygnaeus_logo.png"
+		},
+		{
+			"title": "Logo for an ecological product line",
+			"image": "/resources/logos/ecoline_logo.png"
+		},
+		{
+			"title": "Logo for the first Finnish conference of investigative journalism",
+			"image": "/resources/logos/tutki2010_logo.png"
+		},
+		{
+			"title": "Logo for a Finnish hard rock band",
+			"image": "/resources/logos/nasty_answer_logo.png"
+		},
+		{
+			"title": "Logo for a brand of professional lubricants",
+			"image": "/resources/logos/nmx_lubrication_logo.png"
 		}
 	]
 }
