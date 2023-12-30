@@ -4,7 +4,7 @@
 	"content": [
 		{
 			"title": "Art and Illustration",
-			"thumbnail": "/resources/rose_window_thumbnail.png",
+			"thumbnail": "/resources/art_and_illustration/rose_window_thumbnail.png",
 			"link": "/pages/art_and_illustration.html"
 		},
 		{
@@ -14,7 +14,7 @@
 		},
 		{
 			"title": "Labels",
-			"thumbnail": "/resources/rose_window_thumbnail.png",
+			"thumbnail": "/resources/labels/mineral_water_label_thumbnail.png",
 			"link": "/pages/labels.html"
 		},
 		{

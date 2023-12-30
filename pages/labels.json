@@ -3,8 +3,28 @@
 	"pageType": "imageGrid",
 	"content": [
 		{
-			"title": "Rose window illustration",
-			"image": "/resources/rose_window.png"
+			"title": "Mineral water label",
+			"image": "/resources/labels/mineral_water_label.png"
+		},
+		{
+			"title": "Label for a beer bottle",
+			"image": "/resources/labels/sauna_beer_label.png"
+		},
+		{
+			"title": "Label for a lingonberry soda bottle",
+			"image": "/resources/labels/lingonberry_soda_label.png"
+		},
+		{
+			"title": "Label for a multipurpose lubricant spray",
+			"image": "/resources/labels/max_flow_label.png"
+		},
+		{
+			"title": "Label for a diesel additive",
+			"image": "/resources/labels/diesel_booster_label.png"
+		},
+		{
+			"title": "Label for an environmentally friendly drain cleaner",
+			"image": "/resources/labels/bio_enzym_label.png"
 		}
 	]
 }
