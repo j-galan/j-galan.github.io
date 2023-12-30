@@ -9,7 +9,7 @@
 		},
 		{
 			"title": "Logos",
-			"thumbnail": "/resources/cygnaeus_logo_thumbnail.png",
+			"thumbnail": "/resources/logos/mondegos_logo_thumbnail.png",
 			"link": "/pages/logos.html"
 		},
 		{
@@ -23,9 +23,9 @@
 			"link": "/pages/brochures.html"
 		},
 		{
-			"title": "Catalogues",
+			"title": "Campaigns",
 			"thumbnail": "/resources/rose_window_thumbnail.png",
-			"link": "/pages/catalogues.html"
+			"link": "/pages/campaigns.html"
 		},
 		{
 			"title": "Social Media",
