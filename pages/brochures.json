@@ -3,8 +3,40 @@
 	"pageType": "imageGrid",
 	"content": [
 		{
-			"title": "Rose window illustration",
-			"image": "/resources/rose_window.png"
+			"title": "Catalogue of industrial solvents",
+			"image": "/resources/brochures/orapi_liuottimet.jpg"
+		},
+		{
+			"title": "Catalogue of threadlockers and sealants",
+			"image": "/resources/brochures/orapi_lukitteet.jpg"
+		},
+		{
+			"title": "Leaflet with professional products for workshops",
+			"image": "/resources/brochures/tutustumispaketti_korjaamoille.jpg"
+		},
+		{
+			"title": "Flyer for an air freshener with orange blossom scent",
+			"image": "/resources/brochures/boldair_orange_blossom.jpg"
+		},
+		{
+			"title": "Flyer for an air freshener with ocean scent",
+			"image": "/resources/brochures/boldair_ocean.jpg"
+		},
+		{
+			"title": "Flyer for an air freshener with amber wood scent",
+			"image": "/resources/brochures/boldair_amber_wood.jpg"
+		},
+		{
+			"title": "Flyer for a range of disinfecting hand creams",
+			"image": "/resources/brochures/garcin_ihovoiteet.jpg"
+		},
+		{
+			"title": "Flyer for a multipurpose disinfecting spray",
+			"image": "/resources/brochures/orasept_fg.jpg"
+		},
+		{
+			"title": "Flyer for a multiposition spray nozzle",
+			"image": "/resources/brochures/smart_nozzle.jpg"
 		}
 	]
 }
