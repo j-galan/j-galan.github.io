@@ -3,8 +3,28 @@
 	"pageType": "imageGrid",
 	"content": [
 		{
-			"title": "Rose window illustration",
-			"image": "/resources/rose_window.png"
+			"title": "Non-flammable power solvent",
+			"image": "/resources/campaigns/sdi_new.png"
+		},
+		{
+			"title": "Diesel additive",
+			"image": "/resources/campaigns/diesel_booster2.png"
+		},
+		{
+			"title": "Drilling and tapping oil",
+			"image": "/resources/campaigns/filduc.png"
+		},
+		{
+			"title": "Disinfecting products",
+			"image": "/resources/campaigns/super_week42.png"
+		},
+		{
+			"title": "Diesel additive",
+			"image": "/resources/campaigns/diesel_booster.png"
+		},
+		{
+			"title": "Multipurpose lubricant",
+			"image": "/resources/campaigns/super_week49.png"
 		}
 	]
 }
