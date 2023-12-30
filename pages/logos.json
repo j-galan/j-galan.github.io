@@ -1,0 +1,14 @@
+
+{
+	"pageType": "imageGrid",
+	"content": [
+		{
+			"title": "Logo for a primary school in Helsinki",
+			"image": "/resources/cygnaeus_logo.png"
+		},
+		{
+			"title": "Logo for a rock band",
+			"image": "/resources/mondegos_logo.png"
+		}
+	]
+}

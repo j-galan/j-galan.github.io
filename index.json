@@ -3,14 +3,34 @@
 	"pageType": "categories",
 	"content": [
 		{
-			"title": "Art",
-			"thumbnail": "/resources/image1_thumbnail.jpg",
-			"link": "/pages/art.html"
+			"title": "Art and Illustration",
+			"thumbnail": "/resources/rose_window_thumbnail.png",
+			"link": "/pages/art_and_illustration.html"
 		},
 		{
-			"title": "Photography",
-			"thumbnail": "/resources/image3_thumbnail.jpeg",
-			"link": "/pages/photography.html"
+			"title": "Logos",
+			"thumbnail": "/resources/cygnaeus_logo_thumbnail.png",
+			"link": "/pages/logos.html"
+		},
+		{
+			"title": "Labels",
+			"thumbnail": "/resources/rose_window_thumbnail.png",
+			"link": "/pages/labels.html"
+		},
+		{
+			"title": "Brochures",
+			"thumbnail": "/resources/rose_window_thumbnail.png",
+			"link": "/pages/brochures.html"
+		},
+		{
+			"title": "Catalogues",
+			"thumbnail": "/resources/rose_window_thumbnail.png",
+			"link": "/pages/catalogues.html"
+		},
+		{
+			"title": "Social Media",
+			"thumbnail": "/resources/rose_window_thumbnail.png",
+			"link": "/pages/social_media.html"
 		}
 	]
 }
