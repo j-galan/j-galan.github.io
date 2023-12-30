@@ -3,8 +3,52 @@
 	"pageType": "imageGrid",
 	"content": [
 		{
-			"title": "Rose window illustration",
-			"image": "/resources/rose_window.png"
+			"title": "Happy (Finnish) summer",
+			"image": "/resources/social_media/happy_summer.jpg"
+		},
+		{
+			"title": "Father's day",
+			"image": "/resources/social_media/fathers_day.jpg"
+		},
+		{
+			"title": "Happy midsummer",
+			"image": "/resources/social_media/happy_midsummer.jpg"
+		},
+		{
+			"title": "Women's day",
+			"image": "/resources/social_media/womens_day.jpg"
+		},
+		{
+			"title": "Merry Christmas",
+			"image": "/resources/social_media/merry_christmas.jpg"
+		},
+		{
+			"title": "Mother's day",
+			"image": "/resources/social_media/mothers_day.jpg"
+		},
+		{
+			"title": "Happy Easter (from a lubricant manufacturer)",
+			"image": "/resources/social_media/happy_easter.jpg"
+		},
+		{
+			"title": "Disinfectant spray",
+			"image": "/resources/social_media/disinfectant_spray.jpg"
+		},
+		{
+			"title": "Ice melting product",
+			"image": "/resources/social_media/ice_melt.jpg"
+		},
+		{
+			"title": "Single's day banner",
+			"image": "/resources/social_media/singles_day_banner.png"
+		},
+		{
+			"title": "Cutting disc banner",
+			"image": "/resources/social_media/cutting_disc_banner.png"
+		},
+		{
+			"title": "Food grade products banner",
+			"image": "/resources/social_media/food_grade_banner.png"
 		}
 	]
 }
