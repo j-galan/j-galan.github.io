@@ -3,8 +3,12 @@
 	"pageType": "imageGrid",
 	"content": [
 		{
-			"title": "Rose window vector illustration",
+			"title": "'Rose window' - vector illustration",
 			"image": "/resources/art_and_illustration/rose_window.png"
+		},
+				{
+			"title": "'Untitled' - oil on canvas",
+			"image": "/resources/art_and_illustration/untitled_painting_thumbnail.jpg"
 		}
 	]
 }
