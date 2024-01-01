@@ -9,6 +9,10 @@
 		{
 			"title": "'Untitled' - oil on canvas",
 			"image": "/resources/art_and_illustration/untitled_painting.jpg"
+		},
+		{
+			"title": "'The invisible smile' - black and white photo",
+			"image": "/resources/art_and_illustration/the_invisible_smile.jpg"
 		}
 	]
 }
