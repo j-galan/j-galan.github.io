@@ -167,6 +167,14 @@ body {
 }
 
 @media only screen and (max-width: 550px) {
+
+	/* One cell per page on mobile devices */
+	:root {
+		--cell-size: 80vw;
+		--max-cell-size: 1000px; /* Will not occur */
+		--actual-grid-width: calc(var(--actual-cell-size) + 10px);
+	}
+
 	#header {
 		height: 60px;
 		font-size: 24px;
