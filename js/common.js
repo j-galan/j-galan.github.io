@@ -48,11 +48,15 @@ async function initialize() {
 	const configPath = '/config.json';
 	const configObject = await loadJSON(configPath);
 	document.title = configObject.title;
-	document.getElementById('headerLeft').innerHTML = configObject.headerLeft;
+
+	document.getElementById('headerLeft').innerHTML = configObject.headerLeft || '';
 	document.getElementById('bannerImage').src = configObject.bannerImage;
-	document.getElementById('headerRight').innerHTML = configObject.headerRight;
+	document.getElementById('headerRight').innerHTML = configObject.headerRight || '';
 	document.getElementById('bannerImage').addEventListener('click', goToHomePage);
 	document.getElementById('headerRight').addEventListener('click', goToHomePage);
+
+	document.getElementById('footerLeft').innerHTML = configObject.footerLeft || '';
+	document.getElementById('footerRight').innerHTML = configObject.footerRight || '';
 
 	let pageDefPath = window.location.pathname.replace('.html', '.json');
 	if (pageDefPath === '/') pageDefPath = 'index.json';

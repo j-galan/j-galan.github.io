@@ -3,5 +3,7 @@
 	"title": "Portfolio | John Smith",
 	"bannerImage": "/resources/banner.png",
 	"headerLeft": "John Smith",
-	"headerRight": "PORTFOLIO"
+	"headerRight": "PORTFOLIO",
+	"footerLeft": "",
+	"footerRight": "Copyright John Smith 2024"
 }
