@@ -13,8 +13,11 @@
 }
 
 body {
+	position: relative;
 	margin: 0;
 	font-family: "Abel", sans-serif;
+	min-height: calc(100vh - 64px);
+	padding-bottom: 64px;
 }
 
 
