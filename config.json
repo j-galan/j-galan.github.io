@@ -3,5 +3,7 @@
 	"title": "Portfolio | Juanjo Galan",
 	"bannerImage": "/resources/banner.png",
 	"headerLeft": "Juanjo Galán",
-	"headerRight": "PORTFOLIO"
+	"headerRight": "PORTFOLIO",
+	"footerLeft": "",
+	"footerRight": "Copyright Juanjo Galán 2024"
 }
